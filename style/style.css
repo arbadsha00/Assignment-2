@@ -115,7 +115,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 8%;
+  
 }
 .banner-text h1 {
   color: rgb(255, 255, 255);
@@ -133,6 +133,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 28px;
+  width: 50%;
 }
 .banner-btn {
   display: flex;
@@ -145,7 +146,7 @@ header {
   color: white;
 }
 .banner-card2 h3 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 900;
   color: white;
 }
@@ -161,6 +162,7 @@ header {
   background: rgba(48, 48, 48, 0.54);
   padding: 20px;
   width: 206px;
+  height: 96px;
   position: absolute;
   bottom: 20%;
   right: 60%;
@@ -169,6 +171,7 @@ header {
   white-space: nowrap;
 }
 .banner-card2 {
+ 
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   backdrop-filter: blur(20px);
@@ -177,10 +180,83 @@ header {
   position: absolute;
   top: 20%;
   left: 60%;
+  width: 193px;
+height: 110px;
 }
 .banner-image {
   position: relative;
 }
-.banner-img img {
+.pic{
   width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  html{
+    font-size: 14px;
+  }
+  .nev{
+    width: 90%;
+  }
+.size{
+  width: 90%;
+
+}
+  .hamburg {
+  display: unset;
+}
+.nev-link{
+  display: none;
+}
+.banner{
+  flex-direction: column;
+}
+.banner-card1{
+  left: 0%;
+   width: auto;
+  height: auto;
+  padding: 10px;
+}
+.banner-card2{
+  right: 10%;
+  left: auto;
+  top: 30%;
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
+.banner-text{
+  width: 100%;
+}
+
+.banner-text h1 {
+  
+  font-size: 2.5rem;
+ 
+}
+.span {
+  
+  font-size: 4rem;
+}
+
+.primary-btn {
+  padding: 15px 30px;
+}
+.secondary-btn {
+  padding: 15px 30px;
+}
+}
+
+@media screen and (max-width: 992px) and (min-width: 577px) {
+  html{
+    font-size: 16px;
+  }
+  .nev{
+    width: 90%;
+  }
+  .banner{
+    flex-direction: column;
+  }
+  .banner-text{
+    width: 100%;
+  }
 }
