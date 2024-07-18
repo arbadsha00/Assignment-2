@@ -70,7 +70,24 @@ header {
     cursor: pointer;
     filter: brightness(0.8);
 }
-
+.overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: 1;
+}
+.blue{
+  background-color: rgba(6, 255, 209, 0.349);
+}
+.red{
+ background-color: rgba(255, 0, 0, 0.3);
+}
+.green{
+  background-color: rgba(66, 255, 0, 0.3);
+}
+.navy{
+  background-color: rgba(0, 71, 255, 0.3);
+}
 /* nev_section */
 
 .nev {
@@ -273,6 +290,45 @@ gap: 10%;
 .run-text button{
   width: 224px;
 }
+
+/* trainsection */
+.train{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.train-image {
+  position: relative;
+}
+.train-image img{
+  width: 100%;
+  height: 200px;
+  filter: brightness(0.8);
+}
+
+.train-row1{
+  display: grid;
+  grid-template-columns:0.8fr 1.4fr 0.8fr;
+
+}
+.train-row2{
+  display: grid;
+  grid-template-columns:1.2fr 0.8fr 1fr;
+ 
+}
+.train-image p {
+  color: white;
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  font-weight: 500;
+  font-size: 0.79rem;
+  z-index: 2;
+}
+
+
+
+
 @media screen and (max-width: 576px) {
   html{
     font-size: 14px;
@@ -341,6 +397,16 @@ gap: 10%;
   height: auto;
   width: 100%;
 }
+.hidden{
+  display: none;
+}
+.train-row1,.train-row2
+{
+  grid-template-columns: 1fr 1fr;
+}
+.train-image img{
+  height:150px;
+}
 }
 @media screen and (max-width: 992px) and (min-width: 577px) {
   html{
@@ -360,4 +426,8 @@ gap: 10%;
     gap: 50px;
     width: 80%;
   }
+  .train-row1,.train-row2
+{
+  grid-template-columns: 1fr 1fr 1fr;
+}
 }
