@@ -19,10 +19,19 @@ body {
   width: 80%;
   margin: 40px auto;
 }
+.primary-text{
+  font-size: 2.67rem;
+font-weight: 900;
+color: rgb(255, 255, 255);
+}
+.text2 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.89rem;
+}
 
 .secondary-text {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 0.89rem;
+  font-size: 0.78rem;
 }
 
 header {
@@ -190,6 +199,44 @@ height: 110px;
   width: 100%;
 }
 
+
+/* habit section */
+.habit h3, .habit p{
+  text-align: center;
+}
+.habit-card h6{
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.habit-card p{
+  text-align: center;
+}
+.habit-card img{
+ border-radius: 50%;
+ border: 3px solid rgb(31, 31, 31);
+ width: 100%;
+
+}
+.habit-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.habit-card-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 80px;
+}
+.habit{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
 @media screen and (max-width: 576px) {
   html{
     font-size: 14px;
@@ -244,8 +291,13 @@ height: 110px;
 .secondary-btn {
   padding: 15px 30px;
 }
-}
 
+.habit-card-container{
+  grid-template-columns: 1fr;
+  gap: 40px;
+  width: 60%;
+}
+}
 @media screen and (max-width: 992px) and (min-width: 577px) {
   html{
     font-size: 16px;
@@ -258,5 +310,10 @@ height: 110px;
   }
   .banner-text{
     width: 100%;
+  }
+  .habit-card-container{
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 80%;
   }
 }
