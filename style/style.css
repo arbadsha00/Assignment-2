@@ -237,6 +237,42 @@ height: 110px;
   align-items: center;
   gap: 30px;
 }
+.run{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 18px;
+
+background: rgb(34, 34, 34);
+padding: 30px;
+gap: 10%;
+
+}
+.run-text{
+  display: flex;
+  flex-direction: column;
+ justify-content: space-between;
+ gap: 20px;
+  
+}
+.run-image {
+  
+
+  width: 50%;
+  height: 312px;
+  
+}
+.run-image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+
+ 
+}
+.run-text button{
+  width: 224px;
+}
 @media screen and (max-width: 576px) {
   html{
     font-size: 14px;
@@ -296,6 +332,14 @@ height: 110px;
   grid-template-columns: 1fr;
   gap: 40px;
   width: 60%;
+}
+.run{
+  flex-direction: column;
+  gap: 40px;
+}
+.run-image{
+  height: auto;
+  width: 100%;
 }
 }
 @media screen and (max-width: 992px) and (min-width: 577px) {
