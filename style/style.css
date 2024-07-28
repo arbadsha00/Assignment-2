@@ -391,6 +391,50 @@ teamsection */
   background: rgba(255, 255, 255, 0.1);
 }
 
+/* footer */
+.footer{
+ background-color: rgba(255, 255, 255, 0.1);
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.footer hr{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  height: 1px;
+}
+.copyright{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.1rem;
+}
+.footer-logo h1{
+  color: rgb(230, 83, 60);
+  font-size: 3.89rem;
+  font-weight: 800;
+}
+.footer-logo p{
+color: rgba(255, 255, 255, 0.5);
+font-size: 0.78rem;
+}
+.footer-item p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.28rem;
+}
+.footer-item h3{
+color: white;
+font-size: 1.78rem;
+font-weight: 700;
+}
+.footer-text{
+  display: grid;
+  grid-template-columns: 1.5fr 0.75fr 0.75fr;
+  gap: 100px;
+}
+.footer-logo,.footer-item{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 @media screen and (max-width: 576px) {
   html {
     font-size: 14px;
@@ -469,6 +513,10 @@ teamsection */
   .team-container {
     grid-template-columns: 1fr;
   }
+  .footer-text{
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
 }
 @media screen and (max-width: 992px) and (min-width: 577px) {
   html {
@@ -494,5 +542,11 @@ teamsection */
   }
   .machine-card-container {
     grid-template-columns: 1fr 1fr;
+  }
+  .footer-text{
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-logo{
+    grid-column: span 2;
   }
 }
