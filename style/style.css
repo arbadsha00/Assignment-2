@@ -19,16 +19,16 @@ body {
   width: 80%;
   margin: 40px auto;
 }
-.primary-text{
+.primary-text {
   font-size: 2.67rem;
-font-weight: 900;
-color: rgb(255, 255, 255);
+  font-weight: 900;
+  color: rgb(255, 255, 255);
 }
 .text2 {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.89rem;
 }
-.center{
+.center {
   text-align: center;
 }
 .secondary-text {
@@ -64,30 +64,30 @@ header {
   font-size: 1rem;
   padding: 16px 40px;
 }
-.secondary-btn:hover{
-    cursor: pointer;
-    filter: brightness(0.8);
+.secondary-btn:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
 }
-.primary-btn:hover{
-    cursor: pointer;
-    filter: brightness(0.8);
+.primary-btn:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
 }
-.overlay{
-position: absolute;
-width: 100%;
-height: 100%;
-z-index: 1;
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
-.blue{
+.blue {
   background-color: rgba(6, 255, 209, 0.349);
 }
-.red{
- background-color: rgba(255, 0, 0, 0.3);
+.red {
+  background-color: rgba(255, 0, 0, 0.3);
 }
-.green{
+.green {
   background-color: rgba(66, 255, 0, 0.3);
 }
-.navy{
+.navy {
   background-color: rgba(0, 71, 255, 0.3);
 }
 /* nev_section */
@@ -143,7 +143,6 @@ z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 .banner-text h1 {
   color: rgb(255, 255, 255);
@@ -199,7 +198,6 @@ z-index: 1;
   white-space: nowrap;
 }
 .banner-card2 {
- 
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   backdrop-filter: blur(20px);
@@ -209,92 +207,84 @@ z-index: 1;
   top: 20%;
   left: 60%;
   width: 193px;
-height: 110px;
+  height: 110px;
 }
 .banner-image {
   position: relative;
 }
-.pic{
+.pic {
   width: 100%;
 }
 
-
 /* habit section */
-.habit h3, .habit p{
+.habit h3,
+.habit p {
   text-align: center;
 }
-.habit-card h6{
+.habit-card h6 {
   color: white;
   font-size: 1rem;
   font-weight: 600;
 }
-.habit-card p{
+.habit-card p {
   text-align: center;
 }
-.habit-card img{
- border-radius: 50%;
- border: 3px solid rgb(31, 31, 31);
- width: 100%;
-
+.habit-card img {
+  border-radius: 50%;
+  border: 3px solid rgb(31, 31, 31);
+  width: 100%;
 }
-.habit-card{
+.habit-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-.habit-card-container{
+.habit-card-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 80px;
 }
-.habit{
+.habit {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
-.run{
+.run {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 18px;
 
-background: rgb(34, 34, 34);
-padding: 30px;
-gap: 10%;
-
+  background: rgb(34, 34, 34);
+  padding: 30px;
+  gap: 10%;
 }
-.run-text{
+.run-text {
   display: flex;
   flex-direction: column;
- justify-content: space-between;
- gap: 20px;
-  
+  justify-content: space-between;
+  gap: 20px;
 }
 .run-image {
-  
-
   width: 50%;
   height: 312px;
-  
 }
-.run-image img{
+.run-image img {
   width: 100%;
   height: 100%;
   border-radius: 18px;
   object-fit: cover;
-
- 
 }
-.run-text button{
+.run-text button {
   width: 224px;
 }
 
 /* trainsection */
-.train{
+.train {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -302,21 +292,19 @@ gap: 10%;
 .train-image {
   position: relative;
 }
-.train-image img{
+.train-image img {
   width: 100%;
   height: 200px;
   filter: brightness(0.8);
 }
 
-.train-row1{
+.train-row1 {
   display: grid;
-  grid-template-columns:0.8fr 1.4fr 0.8fr;
-
+  grid-template-columns: 0.8fr 1.4fr 0.8fr;
 }
-.train-row2{
+.train-row2 {
   display: grid;
-  grid-template-columns:1.2fr 0.8fr 1fr;
- 
+  grid-template-columns: 1.2fr 0.8fr 1fr;
 }
 .train-image p {
   color: white;
@@ -329,12 +317,12 @@ gap: 10%;
 }
 
 /* Machine-section */
-.machine{
+.machine {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.machine-card{
+.machine-card {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -346,112 +334,153 @@ gap: 10%;
   background: rgba(48, 48, 48, 0.54);
   padding: 20px;
 }
-.machine-card img{
+.machine-card img {
   width: 100%;
 }
-.machine-card p{
+.machine-card p {
   color: white;
   text-align: center;
   font-size: 1rem;
   font-weight: 600;
 }
-.machine-card-container{
+.machine-card-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
+/* 
+teamsection */
+.team {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 
+.team-card {
+  position: relative;
+}
+.team-card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+  height: 272px;
+  filter: brightness(0.8);
+}
+
+.team-text {
+  position: absolute;
+  z-index: 2;
+  left: 5%;
+  bottom: 5%;
+}
+.team-text h6 {
+  font-weight: 600;
+  color: white;
+  font-size: 1rem;
+}
+.team-text p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.89rem;
+}
+.team-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  border-radius: 18px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
 
 @media screen and (max-width: 576px) {
-  html{
+  html {
     font-size: 14px;
   }
-  .nev{
+  .nev {
     width: 90%;
   }
-.size{
-  width: 90%;
-
-}
+  .size {
+    width: 90%;
+  }
   .hamburg {
-  display: unset;
-}
-.nev-link{
-  display: none;
-}
-.banner{
-  flex-direction: column;
-}
-.banner-card1{
-  left: 0%;
-   width: auto;
-  height: auto;
-  padding: 10px;
-}
-.banner-card2{
-  right: 10%;
-  left: auto;
-  top: 30%;
-  padding: 10px;
-  width: auto;
-  height: auto;
-}
-.banner-text{
-  width: 100%;
-}
-
-.banner-text h1 {
-  
-  font-size: 2.5rem;
- 
-}
-.span {
-  
-  font-size: 4rem;
-}
-
-.primary-btn {
-  padding: 15px 30px;
-}
-.secondary-btn {
-  padding: 15px 30px;
-}
-
-.habit-card-container{
-  grid-template-columns: 1fr;
-  gap: 40px;
-  width: 60%;
-}
-.run{
-  flex-direction: column;
-  gap: 40px;
-}
-.run-image{
-  height: auto;
-  width: 100%;
-}
-.hidden{
-  display: none;
-}
-.train-row1,.train-row2, .machine-card-container
-{
-  grid-template-columns: 1fr 1fr;
-}
-.train-image img{
-  height:150px;
-}
-}
-@media screen and (max-width: 992px) and (min-width: 577px) {
-  html{
-    font-size: 16px;
+    display: unset;
   }
-  .nev{
-    width: 90%;
+  .nev-link {
+    display: none;
   }
-  .banner{
+  .banner {
     flex-direction: column;
   }
-  .banner-text{
+  .banner-card1 {
+    left: 0%;
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+  .banner-card2 {
+    right: 10%;
+    left: auto;
+    top: 30%;
+    padding: 10px;
+    width: auto;
+    height: auto;
+  }
+  .banner-text {
+    width: 100%;
+  }
+
+  .banner-text h1 {
+    font-size: 2.5rem;
+  }
+  .span {
+    font-size: 4rem;
+  }
+
+  .primary-btn {
+    padding: 15px 30px;
+  }
+  .secondary-btn {
+    padding: 15px 30px;
+  }
+
+  .habit-card-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    width: 60%;
+  }
+  .run {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .run-image {
+    height: auto;
+    width: 100%;
+  }
+  .hidden {
+    display: none;
+  }
+  .train-row1,
+  .train-row2,
+  .machine-card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .train-image img {
+    height: 150px;
+  }
+  .team-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 577px) {
+  html {
+    font-size: 16px;
+  }
+  .nev {
+    width: 90%;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner-text {
     width: 100%;
   }
   .habit-card-container {
@@ -459,11 +488,11 @@ gap: 10%;
     gap: 50px;
     width: 80%;
   }
-  .train-row1,.train-row2
-{
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.machine-card-container{
-  grid-template-columns: 1fr 1fr;
-}
+  .train-row1,
+  .train-row2 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .machine-card-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
